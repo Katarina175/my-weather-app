@@ -1,0 +1,161 @@
+/* #header {
+  
+  float: right;
+  
+} */
+
+h1 {
+  padding-top: 20px;
+  font-family: "Caveat", cursive;
+  font-weight: bolder;
+  color: #45a7ca;
+}
+h4 {
+  font-family: "Overpass", sans-serif;
+  color: #fffbfa;
+}
+
+p {
+  display: block;
+  font-family: "Caveat", cursive;
+}
+i {
+  position: relative;
+  top: 5px;
+}
+input {
+  background-color: #fffbfa;
+  border-radius: 4px;
+  border: none;
+}
+a:visited {
+  color: white;
+} 
+a:link {
+  color: white;
+
+}
+
+ #currentLocation {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  color: white;
+  background:  #45a7ca;
+  border: none;
+  border-radius: 4px;
+  height: 26px;
+}
+::placeholder {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  color: #45a7ca;
+}
+
+#locationIcon {
+  position: relative;
+  top: 2px;
+}
+
+#searchBox {
+  float: right;
+  margin: 20px 5px 20px 0;
+}
+#submit-button {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  color: white;
+  background:  #45a7ca;
+}
+#cfGroup {
+  display: inline;
+  margin-left: 5px;
+  color: white;
+}
+
+#currentWeather {
+  /* padding-top: 20px; */
+  font-size: 40pt;
+  display: inline;
+  font-family: "Overpass", sans-serif;
+  color: white;
+}
+#wind {
+  font-size: 8pt;
+  font-family: "Overpass", sans-serif;
+  color: white;
+  margin-bottom: 0;
+}
+#humidity {
+  font-size: 8pt;
+  font-family: "Overpass", sans-serif;
+  color: white;
+
+}
+
+#currentWeatherIcon {
+  font-size: 40px;
+  margin-left: 45px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #9fe3ba;
+  color: #fffbfa;
+  border: double 2px white;
+}
+
+#pageContent {
+  margin-top: 40px;
+  width: 55%;
+  background-size: cover;
+  /* background: #fdd1d0; */
+  /* background-image: url(images/background.png); */
+}
+
+#tempAndDetails {
+  padding-left: 60px;
+  padding-top: 30px;
+}
+#saying {
+  /* margin-top: 100px; */
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  /* background-color: #f9b384;
+  border-radius: 10px; */
+}
+#weatherForcast {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  /* background-color: #fffbfa; */
+}
+#daysForcast {
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #45a7ca;
+}
+#weeklyTemps {
+  font-family: "Overpass", sans-serif;
+  color: #45a7ca;
+}
+#weatherIcons {
+  padding-left: 5px;
+
+  /* color: black; */
+}
+#mainWeatherIcon {
+  position: relative;
+  top: 1px;
+}
+.icons {
+  background-color: #9fe3ba;
+  color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fdd1d0;
+}
+
+.weeklyTempsStyle {
+  font-family: "Overpass", sans-serif;
+}
