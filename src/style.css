@@ -106,6 +106,7 @@ a:link {
   margin-top: 40px;
   width: 55%;
   background-size: cover;
+  max-width: 650px;
   /* background: #fdd1d0; */
   /* background-image: url(images/background.png); */
 }
