@@ -35,6 +35,17 @@ a:link {
   color: white;
 
 }
+#openSource {
+  /* text-align: center; */
+  font-family: "Overpass", sans-serif;
+  font-size: smaller;
+  background: white;
+  text-align: left;
+}
+
+#openSourceLink {
+  color:blue;
+}
 
  #currentLocation {
   font-family: "Caveat", cursive;
@@ -107,6 +118,7 @@ a:link {
   width: 55%;
   background-size: cover;
   max-width: 650px;
+  padding: 0;
   /* background: #fdd1d0; */
   /* background-image: url(images/background.png); */
 }
